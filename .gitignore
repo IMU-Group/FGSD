@@ -1,0 +1,17 @@
+__pycache__
+test/
+*.pyc
+*.pt
+*.pth
+*.ckpt
+*.png
+*.jpg
+*.jepg
+*.tar.gz
+*.zip
+*.tar
+*.tar.bz2
+*.0
+test*
+results*
+local_*

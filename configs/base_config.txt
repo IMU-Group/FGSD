@@ -1,0 +1,35 @@
+# Base configuration for shadow detection training
+action=train
+model=BANet.efficientnet-b3
+seed=1
+total_ep=15
+lr=5e-4
+lr_step=1
+lr_gamma=0.7
+wd=1e-4
+loss=bbce
+save_ckpt=1
+
+# Data settings
+train_data=FSD_train
+eval_data=FSD_test
+train_batch=8
+eval_batch=1
+train_size=512
+eval_size=512
+nworker=2
+
+# Evaluation
+prob_th=0.5
+
+# Logging
+loglevel=info
+i_print=10
+
+# Default loss coefficients
+loss_inv_coeff=1.0
+loss_var_coeff=1.0
+loss_rmse_coeff=1.0
+loss_det_coeff=10.0
+loss_smooth_coeff=10.0
+loss_binary_coeff=10.0
