@@ -4,7 +4,6 @@ test/
 *.pt
 *.pth
 *.ckpt
-*.png
 *.jpg
 *.jepg
 *.tar.gz
