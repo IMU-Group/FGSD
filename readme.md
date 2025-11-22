@@ -8,6 +8,10 @@ Less is More: Efficient Image Vectorization with Adaptive Parameterization, CVPR
 
 ![![title]](imgs/network-4.png?raw=true)
 
+## Dataset
+
+You can download our dataset at [[`Google Drive`](https://drive.google.com/file/d/1KZb-VGQq8f2I1FMs2Xna-SunMXsVKDQi/view?usp=sharing)]
+
 ## Installation
 We suggest users to use the conda for creating new python environment. 
 
